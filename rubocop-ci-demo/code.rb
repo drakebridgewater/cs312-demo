@@ -4,5 +4,5 @@ def foo(bar)
   puts bar *
   2
 end
-
+  
 foo "Hello, World!"
