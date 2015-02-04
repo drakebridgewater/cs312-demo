@@ -6,4 +6,5 @@ rvm:
 install:
   - bundle install --retry=3
 script:
+  - bash -ex scripts/build.sh
   - bundle exec rubocop
